@@ -48,6 +48,9 @@ button:hover{
     background-color: aliceblue;
     color: rgb(243, 9, 161);
 }
+a:hover{
+    color: rgb(243, 9, 161);
+}
 </style>
 </head>
 <body>
