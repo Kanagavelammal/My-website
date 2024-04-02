@@ -48,7 +48,7 @@ button:hover{
     background-color: aliceblue;
     color: rgb(243, 9, 161);
 }
-a:hover{
+nav ul li a:hover{
     color: rgb(243, 9, 161);
 }
 </style>
