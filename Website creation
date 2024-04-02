@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="../HTML and CSS/landing.css">
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/008/058/793/small/abstract-blur-with-bokeh-light-for-background-usage-vector.jpg);
+}
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    background-color: rgb(138, 71, 111);
+    color: white;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 5px; 
+}
+nav ul{
+    display: flex;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    margin: 0 10px; 
+    padding:10px 20px;
+}
+nav ul li a{
+    color:  white;
+    text-decoration: none; 
+}
+button{
+    padding: 5px;
+    border-radius: 50px;
+    background-color: rgb(218, 179, 202);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover{
+    background-color: aliceblue;
+    color: rgb(243, 9, 161);
+}
+</style>
+</head>
+<body>
+    <div>
+        <header>
+            <nav>
+
+                <h3>QSpiders</h3>
+                
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+
+                <form action="">
+                    <button class="login">Login</button>
+                </form>
+                
+            </nav>
+        </header>
+    </div>
+</body>
+</html>
